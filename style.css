@@ -1,0 +1,152 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  margin: 20px;
+  padding-top: 50px;
+  font-family: "Merriweather", serif;
+}
+
+header nav {
+  background-color: #0077b6;
+  text-align: right;
+  padding: 15px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+header nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: large;
+  color: whitesmoke;
+  margin-right: 80px;
+  font-family: "Merriweather", serif;
+}
+
+/* __________div1_______ */
+
+.div1 img {
+  width: 170px;
+  height: 175px;
+  float: left;
+  display: inline-block;
+  margin-top: 50px;
+}
+.namedetails #name {
+  color: orangered;
+  font-weight: bold;
+  font-size: xx-large;
+  text-shadow: 2px 2px black;
+}
+.namedetails {
+  margin-bottom: 50px;
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 100px;
+  display: inline-block;
+  margin-top: 140px;
+  color: rgba(73, 3, 3, 0.877);
+}
+.namedetails p {
+  padding: 5px;
+}
+
+.profestionalSummery h2 {
+  margin-top: 20px;
+  color: orangered;
+  font-weight: bold;
+  font-size: xx-large;
+  text-shadow: 2px 2px black;
+}
+
+.profestionalSummery ul li {
+  list-style-type: none;
+  font-size: larger;
+  font-weight: bold;
+  color: rgba(73, 3, 3, 0.877);
+  padding: 15px;
+}
+.profestionalSummery ul li::before {
+  content: "✍️";
+  margin-right: 15px;
+}
+
+.teckStackDetails h2 {
+  margin-top: 20px;
+  color: orangered;
+  font-weight: bold;
+  font-size: xx-large;
+  text-shadow: 2px 2px black;
+  margin-bottom: 20px;
+}
+table,
+tbody,
+tr,
+td {
+  border: 3px solid black;
+  padding: 10px;
+  border-collapse: collapse;
+  width: 400px;
+  height: 60px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  color: rgba(73, 3, 3, 0.877);
+  border-color: rgba(73, 3, 3, 0.877);
+  margin-bottom: 30px;
+}
+
+.educationDetails h2 {
+  margin-top: 20px;
+  color: orangered;
+  font-weight: bold;
+  font-size: xx-large;
+  text-shadow: 2px 2px black;
+  margin-bottom: 20px;
+}
+.personalDetails h2 {
+  margin-top: 20px;
+  color: orangered;
+  font-weight: bold;
+  font-size: xx-large;
+  text-shadow: 2px 2px black;
+  margin-bottom: 20px;
+}
+.personalDetails h3 {
+  font-weight: bold;
+  color: orangered;
+  margin: 10px 0px 10px 0px;
+}
+.personalDetails p {
+  font-weight: bold;
+  font-size: large;
+  color: rgba(73, 3, 3, 0.877);
+  padding: 5px;
+}
+.personalDetails p #Name{
+    color: blue;
+}
+.personalDetails details summary {
+  color: orangered;
+  margin: 20px;
+}
+.personalDetails h4 {
+  color: orangered;
+  margin: 20px;
+}
+.personalDetails ul li {
+  list-style-type: circle;
+  font-weight: bold;
+  font-size: large;
+  color: rgba(73, 3, 3, 0.877);
+  padding: 5px;
+}
+.personalDetails ul li #Name {
+  color: blue;
+}
+
